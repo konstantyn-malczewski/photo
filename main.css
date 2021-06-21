@@ -394,3 +394,7 @@ p, span, li {
   left: 8px;
   bottom: 75px;
 }
+
+.counter-container a:first-child  {
+  visibility: hidden;
+}
