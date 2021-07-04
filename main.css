@@ -18,7 +18,8 @@ p, span, li {
 .text {
   font-family: 'Bitter', serif;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 26px;
+  font-size: 15px;
 }
 
 .text-small {
@@ -329,16 +330,17 @@ p, span, li {
 .contact-heading {
   position: absolute;
   margin: 0;
-  padding-left: 14px;
-  padding-right: 32px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-left: 21px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+  padding-top: 8px;
   right: 0;
   top: 0;
-  font-weight: 100;
-  font-size: 24px;
+  font-weight: 300;
+  font-size: 22px;
   background-color: #D227E1;
   color: #fff;
+  text-indent: 0;
 }
 
 #contact .link {
@@ -365,16 +367,26 @@ p, span, li {
   box-shadow: 0 8px 6px -4px #533c55;
 }
 
+.button-link.button-link-offer {
+  bottom: 0;
+  top: 15px;
+  padding: 12px 44px 12px 12px;
+}
+
+.button-link.button-link-offer .bi-chevron-right {
+  right: 32px;
+}
+
 .button-link:hover, .button-link:focus {
   color: #D227E1;
 }
 
 .button-link .bi-chevron-right {
   position: absolute;
-    width: 22px;
-    height: 22px;
-    top: 12px;
-    right: 9px;
+    width: 18px;
+    height: 18px;
+    top: 14px;
+    right: 18px;
 }
 
 .text-list {
@@ -386,6 +398,8 @@ p, span, li {
   padding: 0;
   margin-left: 10px;
   text-indent: 0;
+  font-size: 15px;
+  line-height: 26px;
 }
 
 .tab-pane {
@@ -416,4 +430,17 @@ p, span, li {
   .navbar-dark .navbar-nav {
     width: auto;
   }
+}
+
+.text-sub-heading {
+  display: inline-block;
+  background-color: #D227E1;
+  color: white;
+  font-weight: 300;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  padding-right: 21px;
+  padding-left: 20px;
+  text-indent: 0;
+  font-size: 22px;
 }
