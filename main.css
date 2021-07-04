@@ -236,7 +236,7 @@ p, span, li {
   left: 0;
   top: 0;
   font-weight: 100;
-  font-size: 36px;
+  font-size: 28px;
   background-color: #D227E1;
   color: #fff;
   opacity: 0.7;
@@ -251,7 +251,6 @@ p, span, li {
     left: 0;
     top: 0;
     font-weight: 100;
-    font-size: 32px;
     opacity: 0.7;
   }
 }
