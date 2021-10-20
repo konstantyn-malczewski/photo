@@ -227,7 +227,7 @@ p, span, li {
 
 .site-footer-copyright {
   display: inline-block;
-  color: #fff;
+  color: #000;
   font-weight: 300;
   position: absolute;
   right: 6px;
@@ -345,6 +345,7 @@ p, span, li {
   text-decoration: none;
   display: inline-block;
   text-indent: 0;
+  text-decoration: none;
 }
 
 .link:hover {
