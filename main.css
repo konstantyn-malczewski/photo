@@ -117,6 +117,8 @@ p, span, li {
 
 .nav-item {
   padding-left: 44px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .nav-link.nav-link-main {
@@ -140,7 +142,6 @@ p, span, li {
 
 .top-menu {
   float: right;
-  padding-top: 13px;
 }
 
 .site-title {
@@ -271,52 +272,20 @@ p, span, li {
 .carousel {
   background-color: #F4F2F4;
   position: relative;
+  margin-bottom: 25px;
 }
 
 .carousel .container {
   position: relative;
 }
 
-.carousel .gallery-heading {
-  position: absolute;
-  margin: 0;
-  padding-left: 32px;
-  padding-right: 16px;
-  padding-bottom: 2px;
-  padding-top: 20px;
-  left: 0;
-  top: 0;
+.gallery-heading {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: -2px;
   font-weight: 100;
-  font-size: 28px;
   color: #111;
-  opacity: 0.7;
-}
-
-@media (max-width: 990px) {
-  .carousel .gallery-heading {
-    padding-left: 32px;
-    padding-right: 16px;
-    padding-bottom: 2px;
-    padding-top: 20px;
-    left: 0;
-    top: 0;
-    font-weight: 100;
-    opacity: 0.7;
-  }
-}
-
-@media (max-width: 768px) {
-  .carousel .gallery-heading {
-    padding-left: 32px;
-    padding-right: 16px;
-    padding-bottom: 2px;
-    padding-top: 20px;
-    left: 0;
-    top: 0;
-    font-weight: 100;
-    font-size: 24px;
-    opacity: 0.7;
-  }
+  font-size: 34px;
+  margin-bottom: 25px;
 }
 
 .carousel .carousel-control-prev, .carousel-control-next {
@@ -324,30 +293,30 @@ p, span, li {
 }
 
 .carousel-item {
-  height: 580px;
+  height: 680px;
 }
 
 .carousel-item .img-fluid {
-  height: 580px;
+  height: 680px;
 }
 
 @media (max-width: 990px) {
   .carousel-item {
-    height: 460px;
+    height: 500px;
   }
 
   .carousel-item .img-fluid {
-    height: 460px;
+    height: 500px;
   }
 }
 
 @media (max-width: 768px) {
   .carousel-item {
-    height: 230px;
+    height: 300px;
   }
 
   .carousel-item .img-fluid {
-    height: 230px;
+    height: 300px;
   }
 }
 
