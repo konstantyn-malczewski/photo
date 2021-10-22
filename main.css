@@ -138,6 +138,10 @@ p, span, li {
     font-weight: 300;
     font-size: 16px;
   }
+
+  .nav-item {
+    padding-left: 0;
+  }
 }
 
 .top-menu {
