@@ -293,11 +293,11 @@ p, span, li {
 }
 
 .carousel-item {
-  height: 680px;
+  height: 640px;
 }
 
 .carousel-item .img-fluid {
-  height: 680px;
+  height: 640px;
 }
 
 @media (max-width: 990px) {
